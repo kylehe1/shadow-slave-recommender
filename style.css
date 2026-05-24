@@ -10,10 +10,64 @@ body {
 h1 {
   font-size: 2.5rem;
   color: #c9a84c;
+  margin-bottom: 10px;
 }
 
 p {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #aaaaaa;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.arcs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.arc-btn {
+  background-color: #1a1a1a;
+  color: #c9a84c;
+  border: 1px solid #c9a84c;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: 'Georgia', serif;
+  transition: all 0.2s ease;
+}
+
+.arc-btn:hover {
+  background-color: #c9a84c;
+  color: #0f0f0f;
+}
+
+.arc-btn.selected {
+  background-color: #c9a84c;
+  color: #0f0f0f;
+}
+
+.submit-btn {
+  background-color: #c9a84c;
+  color: #0f0f0f;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e0c068;
 }
